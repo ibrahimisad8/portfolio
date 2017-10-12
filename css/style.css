@@ -1194,3 +1194,21 @@ i
 .size-60 { font-size: 60px; }
 
 .size-72 { font-size: 72px; }
+
+.span-blink {
+  opacity: 0;
+  animation: blinking 1s linear infinite;
+  color : #000;
+  font-weight: bold;
+}
+
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
+}
