@@ -641,6 +641,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-heading {
   font-size: 45px;
   margin-bottom: 1em;
+  text-align:center;
 }
 .fh5co-heading.fh5co-light {
   color: #fff;
@@ -1195,7 +1196,9 @@ i
 
 .size-72 { font-size: 72px; }
 
-.span-blink {
+
+.span-blink 
+{
   opacity: 0;
   animation: blinking 1s linear infinite;
   color : #000;
