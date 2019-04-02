@@ -303,6 +303,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  border-radius : 7px;
 }
 .work-item a h3 {
   font-size: 20px;
